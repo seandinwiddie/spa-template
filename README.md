@@ -24,7 +24,7 @@ This is a Single Page Application (SPA) template built with Expo, React Native, 
    ```
 
 ## Project Structure
-
+```
 spa-template/
 ├── src/
 │ ├── app/
@@ -43,7 +43,7 @@ spa-template/
 ├── package.json
 ├── tamagui.config.ts
 └── tsconfig.json
-
+```
 ## Key Components
 
 ### App Layout
