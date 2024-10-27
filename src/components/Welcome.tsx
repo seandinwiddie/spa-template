@@ -1,17 +1,13 @@
 import React from 'react';
-import { YStack, Text, Button } from 'tamagui';
+import { YStack, H1, Paragraph } from 'tamagui';
 
 const Welcome: React.FC = () => {
   return (
-    <YStack f={1} jc="center" ai="center" p="$4" space>
-      <Text fontSize="$6" fontWeight="bold">Welcome to Your SPA</Text>
-      <Text fontSize={24} fontWeight="bold">
-        Welcome to your SPA Template!
-      </Text>
-      <Text>This is a minimal template for your single-page application.</Text>
-      <Button onPress={() => console.log('Button pressed')}>
-        Click Me
-      </Button>
+    <YStack space="$4" maw={600}>
+      <H1 ta="center">Welcome to Tamagui.</H1>
+      <Paragraph ta="center">
+        Here's a basic starter to show navigating from one screen to another.
+      </Paragraph>
     </YStack>
   );
 };
