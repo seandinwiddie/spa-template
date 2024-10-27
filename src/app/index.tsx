@@ -1,11 +1,13 @@
 import React from 'react';
-import { YStack } from 'tamagui';
+import Layout from './_layout';
 import Welcome from '../components/Welcome';
 
-export default function Home() {
+const App: React.FC = (): React.ReactElement => {
   return (
-    <YStack f={1} jc="center" ai="center" p="$4" space>
+    <Layout>
       <Welcome />
-    </YStack>
+    </Layout>
   );
-}
+};
+
+export default App;

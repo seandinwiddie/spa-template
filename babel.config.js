@@ -4,12 +4,6 @@ module.exports = function(api) {
     presets: ['babel-preset-expo'],
     plugins: [
       [
-        'transform-inline-environment-variables',
-        {
-          include: 'TAMAGUI_TARGET',
-        },
-      ],
-      [
         '@tamagui/babel-plugin',
         {
           components: ['tamagui'],

@@ -1,14 +1,11 @@
+/// <reference types="react" />
 import React from 'react';
-import { YStack, H1, Paragraph } from 'tamagui';
 
-const Welcome: React.FC = () => {
+const Welcome: React.FC = (): React.ReactElement => {
   return (
-    <YStack space="$4" maw={600}>
-      <H1 ta="center">Welcome to Tamagui.</H1>
-      <Paragraph ta="center">
-        Here's a basic starter to show navigating from one screen to another.
-      </Paragraph>
-    </YStack>
+    <div>
+      <p>Welcome to the App!</p>
+    </div>
   );
 };
 
